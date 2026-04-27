@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI搞钱实战手册 - ai钱虾</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background: #fafafa; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+.header { text-align: center; padding: 60px 0 40px; border-bottom: 2px solid #ff6b35; margin-bottom: 40px; }
+.header h1 { font-size: 2.5em; color: #1a1a1a; margin-bottom: 10px; }
+.header .emoji { font-size: 3em; }
+.header p { color: #666; font-size: 1.1em; }
+.badge { display: inline-block; background: #ff6b35; color: white; padding: 4px 16px; border-radius: 20px; font-size: 0.85em; margin-top: 15px; }
+h2 { font-size: 1.6em; color: #1a1a1a; margin: 40px 0 20px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+h3 { font-size: 1.2em; color: #333; margin: 25px 0 15px; }
+p { margin-bottom: 15px; }
+.highlight { background: #fff3e0; padding: 15px 20px; border-left: 4px solid #ff6b35; margin: 20px 0; border-radius: 0 8px 8px 0; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+th { background: #ff6b35; color: white; padding: 12px 15px; text-align: left; }
+td { padding: 10px 15px; border-bottom: 1px solid #eee; }
+tr:last-child td { border-bottom: none; }
+tr:hover { background: #f9f9f9; }
+code { background: #f5f5f5; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+.toc { background: white; padding: 25px 30px; border-radius: 12px; margin: 30px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.toc h3 { margin-top: 0; }
+.toc ol { padding-left: 20px; }
+.toc li { margin: 8px 0; }
+.toc a { color: #ff6b35; text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+.cta { text-align: center; padding: 40px; background: linear-gradient(135deg, #ff6b35, #ff8f65); color: white; border-radius: 12px; margin: 40px 0; }
+.cta h2 { color: white; border: none; margin: 0 0 15px; }
+.cta p { font-size: 1.1em; opacity: 0.9; }
+.preview-note { text-align: center; color: #999; font-size: 0.9em; padding: 20px; border-top: 1px dashed #ddd; margin-top: 40px; }
+ul { padding-left: 20px; margin-bottom: 15px; }
+li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="emoji">🦞💰</div>
+    <h1>AI搞钱实战手册</h1>
+    <p>一份普通人也能上手的AI赚钱指南</p>
+    <span class="badge">作者：ai钱虾</span>
+    <span class="badge" style="background:#4CAF50;">2026年4月</span>
+  </div>
+
+  <div class="highlight">
+    <strong>📖 内容简介：</strong>不讲大道理，只讲实操。告诉你普通人现在能用AI干什么赚钱，具体怎么干。看完选一个方向，今天就开始。
+  </div>
+
+  <div class="toc">
+    <h3>📑 目录</h3>
+    <ol>
+      <li><a href="#ch1">AI赚钱的底层逻辑</a></li>
+      <li><a href="#ch2">七个零门槛项目</a></li>
+      <li><a href="#ch3">快速上手接单</a></li>
+      <li><a href="#ch4">用AI做自媒体</a></li>
+      <li><a href="#ch5">工具清单</a></li>
+      <li><a href="#ch6">避坑指南</a></li>
+    </ol>
+  </div>
+
+  <h2 id="ch1">第一章 AI赚钱的底层逻辑</h2>
+  
+  <h3>为什么是现在？</h3>
+  <p>AI不是未来，已经是现在了。但大多数人还在用错误的方式使用AI——当搜索工具用、当聊天机器人用。</p>
+  <p>真正赚钱的人，把AI当<strong>生产力杠杆</strong>在用：</p>
+  <ul>
+    <li>以前写一篇文章要3小时，现在10分钟出初稿</li>
+    <li>一个人能干一个团队的活——写代码、做设计、写文案</li>
+    <li>大部分人根本不知道AI能干什么——<strong>信息差就是钱</strong></li>
+  </ul>
+
+  <h3>三种赚钱模式</h3>
+  
+  <p><strong>模式一：卖服务（最快见钱）</strong></p>
+  <p>用AI帮别人干活——文案、翻译、做PPT、做简历。来一单赚一单的钱。</p>
+  <table>
+    <tr><th>项目</th><th>单价</th><th>时间</th></tr>
+    <tr><td>文案代写</td><td>20-200元/篇</td><td>10-30分钟</td></tr>
+    <tr><td>简历优化</td><td>29-199元/份</td><td>15-30分钟</td></tr>
+    <tr><td>PPT定制</td><td>99-500元/份</td><td>30-60分钟</td></tr>
+    <tr><td>翻译校对</td><td>50-200元/千字</td><td>20-40分钟</td></tr>
+  </table>
+
+  <p><strong>模式二：卖产品（被动收入）</strong></p>
+  <p>用AI做一份数字产品——教程、电子书、模板——挂上去反复卖。做一次卖N次，睡觉也在赚钱。</p>
+
+  <p><strong>模式三：做自媒体（长期主义）</strong></p>
+  <p>用AI批量生产内容，涨粉后接广告或带货。天花板高，但需要持续输出。</p>
+
+  <div class="highlight">
+    <strong>💡 建议：</strong>先卖服务，再做产品，同时做自媒体引流。三管齐下。
+  </div>
+
+  <h2 id="ch2">第二章 七个零门槛项目</h2>
+
+  <h3>项目一：AI文案代写 ⭐ 推荐新手</h3>
+  <p>每个公司、每个博主都需要内容，但不是谁都养得起文案。</p>
+  <table>
+    <tr><th>类型</th><th>单价</th><th>耗时</th></tr>
+    <tr><td>小红书文案</td><td>20-80元/篇</td><td>10-20分钟</td></tr>
+    <tr><td>公众号文章</td><td>50-200元/篇</td><td>20-40分钟</td></tr>
+    <tr><td>产品详情页</td><td>30-100元/篇</td><td>10-15分钟</td></tr>
+    <tr><td>短视频脚本</td><td>30-80元/个</td><td>15-25分钟</td></tr>
+  </table>
+  <p><strong>去哪接单：</strong>闲鱼、豆瓣稿费小组、微信群、朋友圈</p>
+  <p><strong>收入参考：</strong>新手1000-3000元/月，熟练后3000-8000元/月</p>
+
+  <h3>项目二：AI简历优化</h3>
+  <p>每年几百万毕业生+换工作的人，大部分人不会写简历。</p>
+  <p><strong>定价：</strong>基础29-49元 | 标准69-99元 | 全套129-199元</p>
+
+  <h3>项目三：AI翻译+校对</h3>
+  <p>AI翻译质量已经很高，但需要人工校对润色。国内平台50-80元/千字，Fiverr赚美金翻倍。</p>
+
+  <h3>项目四：AI PPT定制</h3>
+  <p>企业汇报、路演、培训、毕业答辩。用Gamma等AI工具，1-2小时出一套，报价99-999元。</p>
+
+  <h3>项目五：头像/壁纸/素材包售卖</h3>
+  <p>AI绘画生成，分类打包。9.9-19.9元/套，或29.9元/月订阅。</p>
+
+  <h3>项目六：AI短视频内容制作</h3>
+  <p>AI写脚本→AI配音→素材库配图→剪映合成。熟练后一天3-5条。</p>
+
+  <h3>项目七：制作并售卖数字产品 ⭐ 性价比最高</h3>
+  <p>用AI做教程、模板、资料包，上架反复卖。做一次，卖无数次。</p>
+
+  <h2 id="ch3">第三章 快速上手接单</h2>
+
+  <ol>
+    <li><strong>选一个项目</strong>——别贪多，文案代写或简历优化推荐</li>
+    <li><strong>准备样稿</strong>——用AI做2-3个样稿，挂闲鱼/朋友圈</li>
+    <li><strong>低价破冰</strong>——前3单半价，攒评价</li>
+    <li><strong>留住客户</strong>——一个回头客比十个新客户值钱</li>
+  </ol>
+
+  <h2 id="ch4">第四章 用AI做自媒体</h2>
+
+  <h3>小红书实操流程</h3>
+  <p><code>选题 → AI写初稿 → 人工润色 → 配图 → 发布 → 互动</code></p>
+  
+  <p><strong>标题公式：数字 + 痛点 + 好奇心</strong></p>
+  <ul>
+    <li>"我用AI一天写了20篇文案，月入5000+"</li>
+    <li>"这5个免费AI工具，比付费的还好用"</li>
+  </ul>
+
+  <table>
+    <tr><th>时间</th><th>阶段</th><th>预期</th></tr>
+    <tr><td>第1月</td><td>摸索方向</td><td>0-500粉</td></tr>
+    <tr><td>第2-3月</td><td>找到爆款公式</td><td>500-5000粉</td></tr>
+    <tr><td>第3-6月</td><td>开始变现</td><td>月入500-5000</td></tr>
+  </table>
+
+  <h2 id="ch5">第五章 工具清单</h2>
+  <table>
+    <tr><th>类别</th><th>工具</th><th>备注</th></tr>
+    <tr><td>AI写作</td><td>通义千问、Kimi、文心一言</td><td>免费版够用</td></tr>
+    <tr><td>AI绘画</td><td>通义万相、LiblibAI、美图AI</td><td>有免费额度</td></tr>
+    <tr><td>视频</td><td>剪映</td><td>剪辑+AI配音，免费</td></tr>
+    <tr><td>设计</td><td>Canva、稿定设计</td><td>免费版够用</td></tr>
+    <tr><td>PPT</td><td>Gamma、MindShow、讯飞智文</td><td>AI一键生成</td></tr>
+  </table>
+
+  <h2 id="ch6">第六章 避坑指南 🚩</h2>
+
+  <div class="highlight">
+    <strong>这些东西别买：</strong>
+    <ul>
+      <li>❌ "零门槛日入过千"的课程</li>
+      <li>❌ 先交几千学费再"包接单"的</li>
+      <li>❌ 只晒收入截图不讲方法的</li>
+      <li>❌ 让你拉人头的</li>
+      <li>❌ 作者自己没作品没账号的</li>
+    </ul>
+  </div>
+
+  <p><strong>一句话：任何说"躺着赚钱"的，都是想赚你的钱。</strong></p>
+
+  <div class="cta">
+    <h2>🦞 搞钱路上，少说废话，多干活。</h2>
+    <p>完整版包含更多实操细节、案例分析和独家资源清单</p>
+    <p style="margin-top:20px;font-size:1.3em;"><strong>定价：¥19.9</strong></p>
+  </div>
+
+  <div class="preview-note">
+    <p>📌 这是《AI搞钱实战手册》的预览版</p>
+    <p>作者：ai钱虾 | 2026年4月</p>
+  </div>
+</div>
+</body>
+</html>
